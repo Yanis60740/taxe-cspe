@@ -1,0 +1,42 @@
+<main>
+            <div class="simulateur">
+                <div class="simulateur-main-box">
+                    <div class="bullet">
+                        <a class="swipper-bullet"></a>
+                        <a class="swipper-null"></a>
+                        <a class="swipper-null"></a>
+                    </div>
+                    <div class="cercle"> 
+                        <div class="car">
+                            <div class="personal-number">
+                                <div class="personal-button">
+                                    <span>1</span>
+                                </div>
+                            </div>
+                            <div class="personal">
+                                <span> Vérifions votre éligibilité </span>
+                            </div>
+                            <div class="personal-content">
+                                <p>Quel est votre code NAF ou APE?</p>
+                            </div>
+                            <form action="functions.php" method="post" class="form-simu">
+                                <input type="hidden" name="naf" value="1">
+                                <div class="code">
+                                    <label>
+                                        <input type="hidden" name="form" value="eligibilite">
+                                        <input type="text" name="codeNaf" pattern="[a-zA-Z0-9]{5}" value="" placeholder="Ex : 1071C">
+                                    </label>
+                                </div>
+                                <button class="button-next" name="button-naf">
+                                    Suivant<!--<img src="assets/arrow.png"> -->
+                                    <div class="button-next-arrow"></div>
+                                </button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+                
+
+            </div>
+        </main>

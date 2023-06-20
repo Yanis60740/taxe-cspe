@@ -1,0 +1,52 @@
+<div class="simulateur">
+                <div class="simulateur-main">
+                    <div class="simulateur-main-box conso">
+                        <div class="bullet">
+                            <a href="/simulateur" class="swipper-null">
+                            <a class="swipper-bullet"></a>
+                            <a class="swipper-null"></a>
+                            </a>
+                        </div>
+                        <div class="cercle"> 
+                            <div class="car">
+                                <div class="personal-number">
+                                    <div class="personal-button">
+                                        <span>2</span>
+                                    </div>
+                                </div>
+                                <div class="personal">
+                                    <span> Vérifions votre éligibilité </span>
+                                </div>
+                                <div class="personal-ok3">
+                                    <p>Bonne nouvelle, votre entreprise <br> est éligible à la récupération <br> de la taxe CSPE.</p>
+                                </div>
+                                <div class="personal-ok4">
+                                    <p>Quelle est votre consommation annuelle <br> d’électricité ?</p>
+                                </div>
+                                <form action="functions.php" method="post"  class="form-simu">
+                                    <input type="hidden" name="eli" value="1">
+                                    <div class="input-wrapper">
+                                        <label>
+                                            <input type="text" name="conso_elec" value="" placeholder="Ex : 500">
+                                            <span class="unit">MWh</span>
+                                        </label>
+                                    </div>                    
+                                    <div class="button-next2">
+                                        <button class="button2" name="button-eli">
+                                            Suivant <!--<img src="../simulateur/assets/arrow.png"> -->
+                                            <div class="button-next-arrow"></div>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div> 
+                  <a href="/simulateur" class="retour2">
+                            <div class="retour">
+                                    Retour
+                                    <div class="button-return-arrow"></div>
+                            </div>
+                        </a>
+                </div>  
+            </div>
+        </main>
